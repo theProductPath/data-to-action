@@ -38,7 +38,7 @@ At the end, the app gives you a ready-to-paste prompt. Copy it back into the cha
 
 ### 4. Bring your own data
 
-Once you've seen how it works with the examples, drop your own files into the folder — Excel, CSV, PDF, Markdown, anything structured — and ask Claude to analyze them. It works the same way.
+Once you've seen how it works with the examples, drop your own files into the `Your-Data/` folder — Excel, CSV, PDF, Markdown, anything structured — and ask Claude to analyze them. It works the same way.
 
 ---
 
