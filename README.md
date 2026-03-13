@@ -2,33 +2,31 @@
 
 Drop in your data files. Get back insights, reports, and deliverables — no coding, no data science background needed.
 
-This project is a skill for [Claude](https://claude.ai) that turns unfamiliar data files into concrete, useful outputs. It works by analyzing your files, figuring out what they are and how they connect, and then building an interactive walkthrough that lets you choose exactly what you want produced.
+This repo shows what happens when you point [Claude](https://claude.ai) at unfamiliar data and ask it to figure out what's useful. It analyzes your files, finds the connections between them, and builds an interactive walkthrough that lets you pick exactly what you want produced — risk reports, dashboards, action lists, executive summaries, and more.
+
+Everything you need to try it is included. No setup, no installs.
 
 ---
 
 ## Getting Started
 
-### 1. Install the Skill
+### 1. Download this repo
 
-Open Claude (desktop app with Cowork mode), then drag and drop the `data-to-action.skill` file into the chat. Claude will install it automatically.
+Clone or download the ZIP and save it somewhere on your computer.
 
-### 2. Add Your Data
+### 2. Open the folder in Claude
 
-You have three options:
+Open the Claude desktop app (with Cowork mode enabled) and select this folder as your workspace. Then type:
 
-**Try the included examples** — Two pre-loaded example folders are ready to go. Just point Claude at one:
+> *"Help"*
 
-> *"Use the skill in this folder to review the documents in Example-A-Indexed"*
+That's it. Claude will see the data files, read the README, and walk you through what's possible. You can also be more specific:
 
-**Bring your own data** — Create a new folder, drop in two or more data files (Excel, CSV, PDF, Markdown — anything structured), and tell Claude to analyze them:
+> *"Review the documents in Example-A-Indexed"*
 
-> *"Use the data-to-action skill to review the files in my-folder"*
+> *"What can you do with these files?"*
 
-**Start from scratch** — Just upload files directly into the chat and say something like:
-
-> *"What can you do with these?"*
-
-### 3. Explore the App
+### 3. Explore the app
 
 Claude will analyze your files behind the scenes and generate an interactive HTML app. Open it in your browser and click through three phases:
 
@@ -37,6 +35,10 @@ Claude will analyze your files behind the scenes and generate an interactive HTM
 - **Act** — Pick the outputs you want: reports, dashboards, emails, action lists, and more
 
 At the end, the app gives you a ready-to-paste prompt. Copy it back into the chat, and Claude builds everything you selected.
+
+### 4. Bring your own data
+
+Once you've seen how it works with the examples, drop your own files into the folder — Excel, CSV, PDF, Markdown, anything structured — and ask Claude to analyze them. It works the same way.
 
 ---
 
@@ -64,9 +66,9 @@ This is a harder test. There's no shared ID to link the files — the skill has 
 
 ---
 
-## What the Skill Can Build
+## What It Can Build
 
-Depending on your data, the skill can produce:
+Depending on your data, Claude can produce:
 
 - **Risk reports** — Accounts at risk, renewal alerts, priority lists ranked by revenue impact
 - **Dashboards** — Formatted Excel workbooks with breakdowns by segment, category, priority
@@ -80,14 +82,19 @@ Depending on your data, the skill can produce:
 ## Requirements
 
 - Claude desktop app with **Cowork mode** enabled
-- The `data-to-action.skill` file (included in this repo)
-- Two or more structured data files (Excel, CSV, PDF, or Markdown)
+- Two or more structured data files (Excel, CSV, PDF, or Markdown) — or just use the included examples
 
 ---
 
 ## Tips
 
-- **You don't need to know what's in your files.** The whole point of the skill is discovery. Drop in files you work with every day and let Claude tell you what's possible.
+- **You don't need to know what's in your files.** The whole point is discovery. Drop in files you work with every day and let Claude tell you what's possible.
 - **The interactive app is shareable.** The HTML file Claude generates is self-contained — you can send it to a colleague and they can click through the analysis in their browser.
-- **You can skip the app.** If you already know what you want, just tell Claude directly: "Build me a dashboard comparing these two files by department." The skill is flexible.
-- **Start with Example A.** It's the cleanest data and will give you the best sense of what the skill can do before you bring your own files.
+- **You can skip the app.** If you already know what you want, just tell Claude directly: "Build me a dashboard comparing these two files by department."
+- **Start with Example A.** It's the cleanest data and will give you the best sense of what's possible before you bring your own files.
+
+---
+
+## Found this useful? Install the skill.
+
+If you liked what you saw, you can install the Data to Action skill so it's always available — even outside this folder. Just drag the `data-to-action.skill` file into any Claude chat and it installs automatically. From then on, you can point it at any folder with data files and get the same experience.
