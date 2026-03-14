@@ -2,3 +2,18 @@
 *.pyc
 __pycache__/
 .env
+
+# Generated outputs (kept locally as examples, not tracked in repo)
+Example-A-Indexed/Accounts_At_Risk_Report.xlsx
+Example-A-Indexed/At_Risk_Renewal_Alert.xlsx
+Example-A-Indexed/Customer_Health_by_Segment.xlsx
+Example-A-Indexed/Data_to_Action_App.html
+Example-A-Indexed/Executive_Summary_Support_Risk.md
+Example-A-Indexed/Follow_Up_Action_List.xlsx
+Example-A-Indexed/Support_Intelligence_Dashboard.xlsx
+
+# Milestone docs
+Milestone — Data to Action.md
+
+# Local testing folders
+data-to-action-main-v1/
