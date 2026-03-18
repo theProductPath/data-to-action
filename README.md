@@ -18,13 +18,11 @@ Clone or download the ZIP and save it somewhere on your computer.
 
 Open the Claude desktop app (with Cowork mode enabled) and select this folder as your workspace. Then type:
 
-> *"Help"*
+> *"What can you do with these files?"*
 
 That's it. Claude will see the data files, read the README, and walk you through what's possible. You can also be more specific:
 
 > *"Review the documents in Example-A-Indexed"*
-
-> *"What can you do with these files?"*
 
 ### 3. Explore the app
 
